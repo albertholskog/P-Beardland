@@ -1,0 +1,113 @@
+header {
+  background-color: var(--dark);
+  margin-bottom: 4vh;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  color: var(--light);
+  letter-spacing: 1px;
+}
+#active-page {
+  color: var(--light);
+  border-bottom: 2px solid var(--light);
+}
+.header-navbar {
+  /* min-height: 70px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 8vw;
+}
+
+.header-nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.nav-log-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: max(8vw, 80px);
+}
+
+.header-logo-name h1 {
+  font-family: "northash";
+  font-weight: 500;
+  font-size: clamp(1.7rem, 3vw, 3rem);
+  margin-left: 10px;
+}
+
+.header-nav-item a {
+  transition: 0.7s ease;
+  font-family: "BebasNeue";
+  font-weight: 200;
+  font-size: 1.25rem;
+  color: var(--primary);
+}
+
+.nav-link:hover {
+  color: var(--light);
+  border-bottom: 2px solid var(--light);
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  transition: all 0.3 ease-in-out;
+  background-color: var(--light);
+}
+
+@media screen and (max-width: 789px) {
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .header-nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 98px;
+    gap: 0;
+    flex-direction: column;
+    background-color: var(--dark);
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    z-index: 3;
+  }
+
+  .header-nav-item {
+    margin: 16px 0;
+  }
+
+  .header-nav-menu.active {
+    left: 0;
+  }
+}

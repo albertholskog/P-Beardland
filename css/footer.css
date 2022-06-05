@@ -1,0 +1,45 @@
+footer {
+  background-color: var(--dark);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8vw;
+  margin-top: auto;
+}
+
+.fa-facebook-f,
+.fa-instagram {
+  font-size: 30px;
+  color: var(--primary);
+  margin: 0 10px;
+}
+.fa-facebook-f:hover,
+.fa-instagram:hover {
+  color: var(--light);
+}
+.social-container,
+.footer-nav {
+  min-width: 95px;
+  max-width: 140px;
+  width: 100%;
+}
+.social-container {
+  text-align: center;
+}
+.social-container h3,
+.footer-nav a {
+  font-family: "BebasNeue";
+  letter-spacing: 1.5px;
+  font-size: clamp(1rem, 2.5vw, 1.6rem);
+  font-weight: 500;
+  text-align: center;
+  color: var(--primary);
+  margin-bottom: 12px;
+}
+.footer-nav a:hover {
+  color: var(--light);
+  border-bottom: 2px solid var(--light);
+}
+.footer-nav li {
+  margin: 5px;
+}
