@@ -4,21 +4,21 @@ Link to the live page
 https://effulgent-churros-816b5e.netlify.app/
 
 
-Beardland where everything grows is a blog for people who are interested in beards, tips and guides for beards. 
-The website is an exam project i have had
+Beardland is a blog for people who are interested in beards, tips and guides for beards. 
+The website is an exam project I have had
 
 ## Description
 
 Beardland, where everything grows, is a website I chose to create for my exam project. 
 The website is a blog that is for people who want to know more about beards. 
 The page is created using the wordpress headless API.
-has a carousel that shows the first 4 posts, where you can click on to read more about the topic.
+Includes a carousel that shows the first 4 posts, where you can click on to read more about the topic.
 
-Things that were important for me to include in this assignment
+Things that were important for me to include in this assignment.
 
-- clear javascript code.
-- good variable name.
-- code that can be used again.
+- Clear javascript code
+- Good variable name
+- Code that can be used again
 - 
 ## Built With
 
