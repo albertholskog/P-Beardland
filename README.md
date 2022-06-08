@@ -28,7 +28,8 @@ This page was made with:
 - HTML
 - CSS
 - Figma
-- 
+
+
 ## Getting Started
 
 ### Installing
@@ -45,5 +46,5 @@ git clone github.com/albertholskog/P-Beradland.git
 ## Contact
 
 
-[My LinkedIn page]([www.linkedin.com](https://www.linkedin.com/in/albert-eikeland-holskog-047347185?originalSubdomain=no))
+[My LinkedIn page]([https://www.linkedin.com/in/albert-eikeland-holskog-047347185?originalSubdomain=no])
 
