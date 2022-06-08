@@ -24,7 +24,7 @@ Things that were important for me to include in this assignment.
 
 This page was made with:
 
-- Vanila Javascript
+- Vanilla Javascript
 - HTML
 - CSS
 - Figma
