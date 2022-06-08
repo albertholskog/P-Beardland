@@ -34,7 +34,6 @@ This page was made with:
 
 ### Installing
 
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
 
  Clone the repo:
 
