@@ -19,7 +19,7 @@ Things that were important for me to include in this assignment.
 - Clear javascript code
 - Good variable name
 - Code that can be used again
-- 
+
 ## Built With
 
 This page was made with:
