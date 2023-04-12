@@ -1,7 +1,7 @@
 # BeardLand 
 
-Link to the live page
-https://effulgent-churros-816b5e.netlify.app/
+live page is down 
+
 
 
 Beardland is a blog for people who are interested in beards, tips and guides for beards. 
